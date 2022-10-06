@@ -1,0 +1,31 @@
+{
+  "name": "grafbase",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx @11ty/eleventy --serve --incremental",
+    "build": "npx @11ty/eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andystevenson/grafbase.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andystevenson/grafbase/issues"
+  },
+  "homepage": "https://github.com/andystevenson/grafbase#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^2.0.0-canary.16",
+    "@11ty/eleventy-plugin-vite": "^2.0.0-canary.2",
+    "@andystevenson/lib": "^0.2.16",
+    "@andystevenson/sass": "^0.1.13",
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "@andystevenson/theme-toggle": "^0.1.5"
+  }
+}
